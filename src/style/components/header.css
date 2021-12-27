@@ -1,0 +1,25 @@
+header{
+    background-color: white;
+    border: solid;
+    padding: 2rem 0;
+}
+.container{
+    width: 60vw;
+    margin: auto;
+}
+nav{
+    background-color: wheat;
+    display: flex;
+    justify-content: space-between;
+}
+.title{
+    font-weight: bold;
+}
+select{
+    background-color: transparent;
+    border-radius: 2px;
+    padding: 0.2rem ;
+    width: 5rem;
+    cursor: pointer;
+    outline: none;
+}
