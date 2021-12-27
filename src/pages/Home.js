@@ -1,13 +1,15 @@
-import React from "react"
+import React from "react";
+import ShowRoomCard from "../components/ShowRoomCard";
+import Showrooms from "../components/Showrooms";
 
-const Home = ()=>{
-    return(
+const Home = () => {
+    return (
         <main>
-            <div className="container">
-                <h1 className="home__title">Show Rooms</h1>
-            </div>
+        <div className='container'>
+            <Showrooms />
+        </div>
         </main>
-    )
-}
+    );
+};
 
 export default Home;

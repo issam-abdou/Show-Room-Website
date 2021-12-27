@@ -5,7 +5,7 @@ const Header = ()=>{
         <header>
             <div className="container">
                 <nav>
-                    <h3 className="title">CRRSA</h3>
+                    <h3 className="title">AUTOSHOW</h3>
                     <select name="languages" id="languages">
                         <option value="english">English</option>
                         <option value="arabic">Arabic</option>
