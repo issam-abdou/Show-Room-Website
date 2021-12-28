@@ -7,6 +7,8 @@ const Showrooms = ()=>{
     return(
         <div className="showrooms">
             <ShowRoomCard/>
+            <ShowRoomCard/>
+            <ShowRoomCard/>
         </div>
     )
 }

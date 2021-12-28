@@ -1,25 +1,27 @@
-.show-card{
-    background-color:white;
-    display: grid;
-    grid-template-columns: repeat(8,1fr);
-    align-items: center;
-    gap: 2rem;
+.show-card {
+  background-color: white;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 1.2rem;
+  border-radius:5px;
 }
-.show-card img{
-    width: 100%;
-    grid-column: 1/4;
+.show-card img {
+  width: 100%;
+  grid-column: 1/4;
 }
-.show-text{
-    grid-column: 4/8;
-    /* height: 100%; */
-    /* border: solid; */
+.show-text {
+  grid-column: 4/8;
+  /* height: 100%; */
+  /* border: solid; */
 }
-.show-text h4{
-    margin-bottom: 1rem;
-    font-size: 1.3rem;
+.show-text h4 {
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
 }
-.show-text p{
-    line-height: 1.4;
-    color: #67757D;
-    font-weight: 400;
+.show-text p {
+  line-height: 1.4;
+  color: #67757d;
+  font-weight: 400;
 }

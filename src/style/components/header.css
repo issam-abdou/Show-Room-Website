@@ -6,13 +6,14 @@ header{
 .container{
     width: 60vw;
     margin: auto;
+    max-width: 1800px;
 }
 nav{
     display: flex;
     justify-content: space-between;
 }
 .title{
-    font-weight: bold;
+    font-weight: 700;
 }
 select{
     background-color: transparent;

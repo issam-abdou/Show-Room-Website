@@ -10,4 +10,8 @@
 main{
     padding-top: 3rem;
     background-color: rgba(244, 243, 243, 1);
+    padding-bottom:3rem ;
+}
+.wrapper{
+    height:100vh;
 }
