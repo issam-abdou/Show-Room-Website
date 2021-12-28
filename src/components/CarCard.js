@@ -1,5 +1,7 @@
 import React from "react"
 import car from "../img/car1.png"
+import "../style/components/car-card.css"
+
 
 const CarCard = ()=>{
     return(
@@ -10,7 +12,7 @@ const CarCard = ()=>{
             <div className="card__text">
                 <h4>Volkswagen Touareg</h4>
                 <span>SUV (2 badges)</span>
-                <div><a href="/">See details</a></div>
+                <div className="details"><a href="/">See details</a></div>
             </div>
         </div>
     )
