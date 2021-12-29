@@ -3,7 +3,7 @@ import ShowRoomCard from "./ShowRoomCard"
 import "../style/components/show-room-card.css"
 
 
-const Showrooms = ()=>{
+const ShowroomGrid = ()=>{
     return(
         <div className="showrooms">
             <ShowRoomCard/>
@@ -13,4 +13,4 @@ const Showrooms = ()=>{
     )
 }
 
-export default Showrooms
+export default ShowroomGrid

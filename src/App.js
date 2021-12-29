@@ -3,7 +3,8 @@ import React from 'react';
 import Header from './components/Header';
 import "./style/components/app.css"
 // import Home from './pages/Home';
-import ShowroomPage from './pages/ShowroomPage';
+// import ShowroomPage from './pages/ShowroomPage';
+import DetailsPage from './pages/DetailsPage';
 
 class App extends React.Component {
   render() {
@@ -11,7 +12,8 @@ class App extends React.Component {
       <div className="wrapper">
         <Header/>
         {/* <Home/> */}
-        <ShowroomPage/>
+        {/*<ShowroomPage/>*/}
+        <DetailsPage/>
       </div>
     );
   }
